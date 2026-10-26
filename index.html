@@ -1,32 +1,294 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy</title>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Privacy Policy for the CHive POS mobile application operated by Mobihive Technologies Private Limited.">
+  <title>Privacy Policy | CHive POS</title>
   <style>
+    :root {
+      color-scheme: light;
+      --ink: #202733;
+      --muted: #5c6675;
+      --brand: #175cd3;
+      --line: #e2e7ef;
+      --surface: #ffffff;
+      --page: #f5f7fb;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
-      max-width: 800px;
-      margin: 40px auto;
-      padding: 0 20px;
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      color: #222;
+      margin: 0;
+      background: var(--page);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.7;
+    }
+    .page-header {
+      background: #102a56;
+      color: #fff;
+      padding: 42px 20px;
+    }
+    .header-inner, main, footer {
+      width: min(900px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: #c7d8ff;
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    h1 { margin: 0; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.2; }
+    .subtitle { margin: 12px 0 0; color: #e1eaff; max-width: 650px; }
+    main {
+      margin-top: 28px;
+      margin-bottom: 40px;
+      padding: clamp(22px, 5vw, 44px);
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(22, 38, 66, .05);
+    }
+    .notice {
+      padding: 14px 16px;
+      border-left: 4px solid var(--brand);
+      background: #f0f5ff;
+      border-radius: 6px;
+      color: #253b60;
+      margin-bottom: 28px;
+    }
+    h2 {
+      margin-top: 38px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+      font-size: 1.45rem;
+      line-height: 1.35;
+    }
+    h2:first-of-type { margin-top: 0; }
+    h3 { margin-top: 24px; font-size: 1.1rem; }
+    h4 { margin-bottom: 8px; font-size: 1rem; }
+    p { margin: 10px 0 14px; }
+    ul { padding-left: 24px; }
+    li { margin: 5px 0; }
+    a { color: var(--brand); overflow-wrap: anywhere; }
+    .contact-card {
+      margin-top: 18px;
+      padding: 20px;
+      background: #f8faff;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+    }
+    .contact-card p { margin: 7px 0; }
+    footer {
+      padding: 0 0 30px;
+      text-align: center;
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    @media (max-width: 520px) {
+      .page-header { padding: 32px 16px; }
+      .header-inner, main, footer { width: min(100% - 20px, 900px); }
+      main { padding: 20px 18px; border-radius: 12px; }
+    }
+    @media print {
+      body { background: #fff; }
+      .page-header { background: #fff; color: #000; padding: 20px 0; }
+      .eyebrow, .subtitle { color: #333; }
+      main { width: 100%; margin: 0; padding: 0; border: 0; box-shadow: none; }
+      footer { width: 100%; }
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p>Effective date: October 26, 2026</p>
+  <header class="page-header">
+    <div class="header-inner">
+      <p class="eyebrow">CHive POS</p>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">How information is collected, used, shared, and protected when you use the CHive POS mobile application.</p>
+    </div>
+  </header>
 
-  <h2>Introduction</h2>
-  <p>
-    Replace this text with your app's actual privacy policy,
-    including what data you collect and how you use it.
-  </p>
+  <main>
+    <div class="notice">
+      This Privacy Policy applies to authorised agents and to end customers or leads whose personal information is processed through the App by authorised agents.
+    </div>
 
-  <h2>Contact Us</h2>
-  <p>Email: your-support-email@example.com</p>
+    <h2>1. Introduction</h2>
+    <h3>Who we are</h3>
+    <p>Mobihive Technology operates the CHive POS mobile application. The App is used by authorised agents to perform point-of-sale operations, including credit-based sales, cash sales, lead management, customer onboarding, and payment-related activities.</p>
+
+    <h3>Purpose of this policy</h3>
+    <p>This Privacy Policy explains what personal and other data we collect, how we use it, with whom we share it, how we protect it, and what rights you have when you use the App.</p>
+
+    <h3>Applicability</h3>
+    <ul>
+      <li>Agents and authorised users of the CHive POS App</li>
+      <li>End customers or leads whose personal data is processed through the App by authorised agents</li>
+    </ul>
+
+    <h3>Consent</h3>
+    <p>By installing or using the App, you agree to the collection and use of information in accordance with this Privacy Policy. If you do not agree, you should not use the App.</p>
+
+    <h2>2. Information We Collect</h2>
+    <h3>2.1 Information You Provide</h3>
+    <h4>Account and login information</h4>
+    <ul>
+      <li>Username and/or email address</li>
+      <li>Password (stored securely in encrypted form)</li>
+      <li>“Remember me” credentials, if enabled, stored securely on the device</li>
+    </ul>
+
+    <h4>Login session and device details</h4>
+    <ul>
+      <li>Device location (latitude and longitude) at the time of login</li>
+      <li>App build/version</li>
+      <li>Push notification token (e.g., Pushy token)</li>
+    </ul>
+
+    <h4>Agent profile information</h4>
+    <ul>
+      <li>Agent ID</li>
+      <li>Assigned permissions and roles</li>
+      <li>Currency and country code</li>
+      <li>Warehouse or store mapping details</li>
+    </ul>
+    <p>Some of this information may be stored locally on the device to enable App functionality.</p>
+
+    <h3>2.2 Information Collected Through the App (Leads / Customers)</h3>
+    <h4>Identity and contact details</h4>
+    <ul>
+      <li>Full name</li>
+      <li>Mobile number</li>
+      <li>Email address</li>
+      <li>Date of birth</li>
+    </ul>
+
+    <h4>Employment and financial details</h4>
+    <ul>
+      <li>Employer name</li>
+      <li>Occupation or designation</li>
+      <li>Employment type and start date</li>
+      <li>Monthly income</li>
+      <li>Number of dependents</li>
+      <li>Existing loans and monthly obligations</li>
+      <li>Monthly savings</li>
+    </ul>
+
+    <h4>Address information</h4>
+    <ul>
+      <li>Residential or business address</li>
+      <li>Address proof documents</li>
+    </ul>
+
+    <h4>KYC and verification data</h4>
+    <ul>
+      <li>Identity documents (e.g., government-issued ID)</li>
+      <li>Address proof documents</li>
+      <li>Facial image and face liveness data, where applicable</li>
+    </ul>
+
+    <h4>Transaction and payment information</h4>
+    <ul>
+      <li>Order IDs and transaction IDs</li>
+      <li>Credit amount, tenure, and repayment schedule</li>
+      <li>Payment amounts and payment status</li>
+      <li>Payment proof images and verification data</li>
+    </ul>
+    <p>Some transaction-related data may be stored temporarily on the device to support background verification or “payment pending” flows.</p>
+
+    <h3>2.3 Information Collected Automatically</h3>
+    <h4>Device and app information</h4>
+    <ul>
+      <li>Device model and manufacturer</li>
+      <li>Operating system and version</li>
+      <li>App version</li>
+      <li>Language and locale preferences</li>
+    </ul>
+
+    <h4>Usage data</h4>
+    <ul><li>App activity such as screens accessed and actions taken</li></ul>
+
+    <h4>Location data</h4>
+    <p>Location information is collected when permission is granted and used for security, compliance, and operational purposes.</p>
+
+    <h2>3. How We Use Your Information</h2>
+    <ul>
+      <li>Authenticate users and manage secure sessions</li>
+      <li>Store and manage access and refresh tokens securely</li>
+      <li>Support agent operations and workflows</li>
+      <li>Create and manage leads, orders, and sales</li>
+      <li>Assess customer eligibility for credit-based transactions</li>
+      <li>Conduct KYC and identity verification</li>
+      <li>Process payments and verify transactions</li>
+      <li>Display payment and verification status</li>
+      <li>Detect and prevent fraud or misuse</li>
+      <li>Improve App performance using aggregated data</li>
+      <li>Comply with legal and regulatory obligations</li>
+    </ul>
+
+    <h2>4. Legal Basis for Processing</h2>
+    <ul>
+      <li>Contractual necessity</li>
+      <li>Consent</li>
+      <li>Legitimate interests</li>
+      <li>Legal obligation</li>
+    </ul>
+
+    <h2>5. Data Storage and Security</h2>
+    <h3>On-device storage</h3>
+    <p>Sensitive data is stored using secure, encrypted storage mechanisms.</p>
+    <h3>Data transmission</h3>
+    <p>All data exchanged between the App and servers is transmitted over secure HTTPS connections.</p>
+    <h3>Data retention</h3>
+    <p>Personal data is retained only as long as necessary to provide services and meet legal requirements.</p>
+
+    <h2>6. Sharing and Disclosure</h2>
+    <ul>
+      <li>Service providers supporting App operations</li>
+      <li>Payment and KYC partners</li>
+      <li>Regulators and law enforcement when required</li>
+      <li>Affiliated group companies</li>
+    </ul>
+    <p>We do not sell personal data to third parties for marketing purposes.</p>
+
+    <h2>7. Third-Party Services and SDKs</h2>
+    <p>The App uses third-party services for camera access, face verification, location services, notifications, secure storage, and network communication.</p>
+
+    <h2>8. Your Rights</h2>
+    <ul>
+      <li>Access your personal data</li>
+      <li>Correct inaccurate data</li>
+      <li>Request deletion of data</li>
+      <li>Restrict or object to processing</li>
+      <li>Request data portability</li>
+      <li>Withdraw consent</li>
+      <li>Lodge a complaint with a data protection authority</li>
+    </ul>
+
+    <h2>9. Children’s Privacy</h2>
+    <p>The App is intended for business use only and is not designed for individuals under the minimum legal age.</p>
+
+    <h2>10. International Data Transfers</h2>
+    <p>Appropriate safeguards are applied for any international data transfers as required by law.</p>
+
+    <h2>11. Changes to This Policy</h2>
+    <p>Updates to this Privacy Policy will be published in the App or on the official website.</p>
+
+    <h2>12. Contact Us</h2>
+    <div class="contact-card">
+      <p><strong>Company Name:</strong> Mobihive Technologies Private Limited</p>
+      <p><strong>Address:</strong> 2816, Sector 40B Rd, Sector 40C, Sector 40B, Chandigarh, 160036</p>
+      <p><strong>Email:</strong> <a href="mailto:technical@mobihivelabs.com">technical@mobihivelabs.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+918005822798">+91 80058 22798</a></p>
+    </div>
+  </main>
+
+  <footer>
+    <p>CHive POS Privacy Policy</p>
+  </footer>
 </body>
 </html>
